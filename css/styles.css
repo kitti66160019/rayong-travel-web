@@ -16,7 +16,7 @@ body {
 }
 /* Layout */
 header {
-    background-color: #007bff;
+    background-color: #333;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -38,5 +38,14 @@ nav ul li a {
     transition: color 0.3s;
 }
 nav ul li a:hover {
-    color: #1eff00;
+    color: #57d862;
+}
+main {
+    padding: 1.2rem;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
 }
