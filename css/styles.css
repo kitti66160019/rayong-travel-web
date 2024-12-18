@@ -20,6 +20,18 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    animation: slideDown 1.5s ease-in-out; /* เรียกใช้ animation */
+}
+/* Keyframes สำหรับการเลื่อนลง */
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%); /* เริ่มจากข้างบนจอ */
+        opacity: 0; /* โปร่งใส */
+    }
+    100% {
+        transform: translateY(0); /* เลื่อนกลับลงมาในตำแหน่งเดิม */
+        opacity: 1; /* ชัดเจน */
+    }
 }
 nav ul {
     display: flex;
