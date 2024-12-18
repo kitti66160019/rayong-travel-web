@@ -49,3 +49,22 @@ footer {
     background-color: #333;
     color: white;
 }
+/* Flexbox Layout */
+article {
+    flex: 1 1 calc(15% - 2rem);
+    background: white;
+    border: 2px solid #57d862;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+/* article:hover {
+    transform: scale(1.05);
+} */
+
+article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
